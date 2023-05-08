@@ -1,0 +1,10 @@
+• Program dimulai dengan mendeklarasikan variabel choice sebagai pilihan menu dan variabel isStopped sebagai penanda apakah program berhenti atau tidak.
+• Kemudian, variabel currentState diinisialisasi dengan "Off" sebagai keadaan awal.
+• Dalam perulangan do-while, program menampilkan menu pilihan ke pengguna.
+• Program melakukan pengecekan keadaan currentState dan menentukan keadaan nextState berdasarkan pilihan pengguna.
+• Jika nextState telah ditentukan, program menampilkan pesan bahwa sistem sedang melakukan transisi dari keadaan currentState ke nextState.
+• Variabel currentState diupdate dengan nilai nextState.
+• Jika pengguna memilih opsi 4, variabel isStopped diubah menjadi true dan program berhenti.
+• Jika pengguna memilih opsi selain 1, 2, 3, atau 4, program menampilkan pesan "Invalid choice" dan kembali menampilkan menu pilihan.
+• Program berulang hingga variabel isStopped bernilai true.
+
