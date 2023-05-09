@@ -1,7 +1,0 @@
-Penjelasan kode Equivalence Class Partitioning
-
-	Program ini memiliki dua fungsi, yaitu isUsernameValid() dan isPasswordValid(), yang masing-masing memvalidasi input string untuk username dan password. Fungsi isUsernameValid() memvalidasi apakah panjang string input terletak di antara 6 dan 20 karakter dan hanya mengandung karakter alfanumerik. Fungsi isPasswordValid() memvalidasi apakah panjang string input terletak di antara 8 dan 30 karakter dan harus memenuhi kriteria kompleksitas berikut:
-• memiliki setidaknya satu huruf besar dan satu huruf kecil
-• memiliki setidaknya satu digit
-• memiliki setidaknya satu karakter spesial
-	Kemudian, program menggunakan perulangan do-while dan switch-case untuk menampilkan menu kepada pengguna dan memungkinkan mereka memilih opsi yang tersedia. Jika pengguna memilih opsi 1, program akan meminta pengguna untuk memasukkan username dan kemudian memvalidasi username tersebut menggunakan fungsi isUsernameValid(). Jika pengguna memilih opsi 2, program akan meminta pengguna untuk memasukkan password dan kemudian memvalidasi password tersebut menggunakan fungsi isPasswordValid(). Setiap kali program memvalidasi input pengguna, ia akan mencetak apakah input tersebut valid atau tidak. Jika pengguna memilih opsi 3, program akan keluar dari perulangan do-while dan mengakhiri program.
